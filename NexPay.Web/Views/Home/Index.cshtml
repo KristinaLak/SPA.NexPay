@@ -1,0 +1,8 @@
+@model NexPay.Web.Model.HomeViewModel
+@{
+    Layout = null;
+}
+<script>
+    window.apiUrl = '@Model.ApiUrl';
+</script>
+@Html.Partial("~/wwwroot/index.html")

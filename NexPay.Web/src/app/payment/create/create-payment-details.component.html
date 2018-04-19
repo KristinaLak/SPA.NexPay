@@ -1,0 +1,57 @@
+﻿<div class="animated fadeIn">
+    <div class="row payment-details">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    <strong>Payment Details</strong>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>BSB</label>
+                                <input class="form-control" placeholder="Enter BSB" type="text" [(ngModel)]="paymentDetail.bsb" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Account Number</label>
+                                <input class="form-control" placeholder="Enter Account Number" type="number" [(ngModel)]="paymentDetail.accountNumber" required min="0" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Account Name</label>
+                                <input class="form-control" placeholder="Enter Account Name" type="text" [(ngModel)]="paymentDetail.accountName" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Reference</label>
+                                <input class="form-control" placeholder="Enter reference" type="text" [(ngModel)]="paymentDetail.reference" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Payment Amount</label>
+                                <input class="form-control" placeholder="Enter Payment Amount" type="number" [(ngModel)]="paymentDetail.paymentAmount" required min="0" />
+                            </div>
+                        </div>
+                    </div>
+                    <p *ngIf="resultMessage" class="result-message">{{resultMessage}}</p>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-sm btn-success pull-right" (click)="save()"><i class="fa fa-dot-circle-o"></i> Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

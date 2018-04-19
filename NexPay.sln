@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.DataAccess", "NexPay.DataAccess\NexPay.DataAccess.csproj", "{749020AA-3EC0-4BA6-9FAF-A0B3F57BCF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.BusinessLogic", "NexPay.BusinessLogic\NexPay.BusinessLogic.csproj", "{56F2F174-191D-44FD-9D28-211B7C1EB2C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.BusinessLogicTests", "NexPay.BusinessLogicTests\NexPay.BusinessLogicTests.csproj", "{81DD6131-EC11-44FA-A711-4528AEF8173C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.Domain", "NexPay.Domain\NexPay.Domain.csproj", "{FCCF356F-2418-467B-B797-FC22D410ACE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.Views", "NexPay.Views\NexPay.Views.csproj", "{9A594AE0-580B-468C-99D6-F074A6804DE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexPay.Web", "NexPay.Web\NexPay.Web.csproj", "{C7C552F0-5147-4301-A2B0-DE231966EFDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{749020AA-3EC0-4BA6-9FAF-A0B3F57BCF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749020AA-3EC0-4BA6-9FAF-A0B3F57BCF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749020AA-3EC0-4BA6-9FAF-A0B3F57BCF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749020AA-3EC0-4BA6-9FAF-A0B3F57BCF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F2F174-191D-44FD-9D28-211B7C1EB2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F2F174-191D-44FD-9D28-211B7C1EB2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F2F174-191D-44FD-9D28-211B7C1EB2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F2F174-191D-44FD-9D28-211B7C1EB2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DD6131-EC11-44FA-A711-4528AEF8173C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DD6131-EC11-44FA-A711-4528AEF8173C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DD6131-EC11-44FA-A711-4528AEF8173C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DD6131-EC11-44FA-A711-4528AEF8173C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCF356F-2418-467B-B797-FC22D410ACE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCF356F-2418-467B-B797-FC22D410ACE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCF356F-2418-467B-B797-FC22D410ACE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCF356F-2418-467B-B797-FC22D410ACE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A594AE0-580B-468C-99D6-F074A6804DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A594AE0-580B-468C-99D6-F074A6804DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A594AE0-580B-468C-99D6-F074A6804DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A594AE0-580B-468C-99D6-F074A6804DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C552F0-5147-4301-A2B0-DE231966EFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C552F0-5147-4301-A2B0-DE231966EFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C552F0-5147-4301-A2B0-DE231966EFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C552F0-5147-4301-A2B0-DE231966EFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8611022-FDF2-4198-9925-E6FE0BCB46AD}
+	EndGlobalSection
+EndGlobal
