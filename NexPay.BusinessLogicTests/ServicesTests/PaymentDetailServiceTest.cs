@@ -1,7 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using NexPay.BusinessLogic.Exceptions;
 using NexPay.BusinessLogic.Services;
+using NexPay.DataAccess.Interfaces;
 using NexPay.DataAccess.Repositories;
+using NexPay.Domain;
 using NexPay.Views.PaymentDetailViews;
 
 namespace NexPay.BusinessLogicTests.ServicesTests
@@ -13,7 +16,9 @@ namespace NexPay.BusinessLogicTests.ServicesTests
 
         public PaymentDetailServiceTest()
         {
-            _paymentDetailService = new PaymentDetailService(new PaymentDetailFileRepository());
+            var paymentDetailFileRepositoryMock = new Mock<IPaymentDetailRepository>();
+            paymentDetailFileRepositoryMock.Setup(rep => rep.Add(It.IsAny<PaymentDetail>()));
+            _paymentDetailService = new PaymentDetailService(paymentDetailFileRepositoryMock.Object);
         }
 
         [TestMethod]

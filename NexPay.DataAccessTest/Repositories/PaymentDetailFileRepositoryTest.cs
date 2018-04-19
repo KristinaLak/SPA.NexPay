@@ -1,9 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NexPay.BusinessLogic.Exceptions;
 using NexPay.DataAccess.Repositories;
 using NexPay.Domain;
 
-namespace NexPay.BusinessLogicTests.RepositoriesTests
+namespace NexPay.DataAccessTests.RepositoriesTests
 {
     [TestClass]
     public class PaymentDetailFileRepositoryTest

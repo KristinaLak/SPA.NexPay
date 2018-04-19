@@ -133,7 +133,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RepositoriesTests\PaymentDetailFileRepositoryTest.cs" />
     <Compile Include="ServicesTests\PaymentDetailServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
